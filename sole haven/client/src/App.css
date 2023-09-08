@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  /*! Not working */
+  background-color: #F0F0F0;
+}
+
+.form-inline {
+  display: flex;
+}
+
+.green-line {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  margin-top: 20%;
+  background-color: #32CD32;
+}
+
+.green-shoe {
+  position: absolute;
+  margin-left: 15%;
+}
+
+.green-welcome {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 45%;
+}
+
+.welcome-title {
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 4px 4px #1be5dd;
+  font-family: 'Lato', sans-serif;
+}
+
+.welcome-body {
+  font-size: 20px;
+  margin-top: 8%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-underline {
+  width: 600px;
+  height: 35px;
+  background-color: #1be5dd;
+}
+
+.welcome-container {
+  margin-bottom: 750px;
+}
+
+.card-bottom-margin {
+  margin-bottom: 20px;
+}
+
+.title-shadow {
+  text-shadow: 2px 2px #1be5dd;
+}
+
+.card-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardHover:hover {
+  cursor: pointer;
+}
+
+.card-img-container {
+  height: 200px;
+  /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  /* You can use "cover" for different behavior */
+}
+
+.sliderTitle {
+  font-size: 40px;
+}
+
+.sliderDescrption {
+  font-size: 15px;
+}
+
+.head-nav__item a {
+  text-decoration: none;
+  color: black;
+}
+
+.img200 {
+  height: 200px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  /* Vertical alignment in case of different image heights */
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  max-width: 200px;
+  /* Adjust the image width as needed */
+  margin-right: 20px;
+  /* Spacing between image and details */
+}
+
+.product-details {
+  flex: 1;
+  /* Allow the details div to grow and take up remaining space */
+}
+
+.imgDiv {
+  width: 350px;
+}
+
+/* Add horizontal line after each product */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--orange);
+  /* Add a horizontal line */
+  padding-bottom: 10px;
+  /* Add some padding below each product */
+}
+
+.product-details {
+  flex: 1;
+}
+
+/* Add a border around the cart summary */
+.cart-summary {
+  border: 2px solid var(--orange);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.navDropdown {
+  font-size: 15px;
+  margin-top: -8px;
+}
+
+.logo-size {
+  width: 200px;
+}
+
+/* CSS for filter container */
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow wrapping to the next line if space is insufficient */
+  align-items: center;
+  /* Vertically center items */
+}
+
+/* CSS for filter buttons */
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  /* Adjust the gap between buttons as needed */
+}
+
+/* CSS for form group (Brand dropdown) */
+.form-group {
+  /* flex: 1; */
+  /* Allow the form group to expand and fill available space */
+  /* margin-bottom: 20px; */
+  margin-left: 10px;
+  /* Add margin to separate from the buttons */
+
+  padding: 0.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--orange);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+
+}
+
+/* Optional: Adjust styling for the select element within the form group */
+.form-group select {
+  width: 100%;
+  /* Make the select element expand to fill its container */
+}
