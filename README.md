@@ -1,9 +1,49 @@
+<!-- HEADER SECTION -->
+<h5 align="center" style="padding:0;margin:0;">Dieter Roelofse</h5>
+<h5 align="center" style="padding:0;margin:0;">221122</h5>
+<h6 align="center">DV200 - 2023</h6>
+</br>
+<p align="center">
+  
+  <h3 align="center">Sole Haven</h3>
+
+  <p align="center">
+    Your Sneaker E-commerce needs. <br>
+</p>
+
+[Video Demonstration Drive Link](https://drive.google.com/file/d/1qxAuDnLwfF3Joo6a5klfrHWX2YqzNHxx/view?usp=sharing)
+
+Report Bug or Request Feature - [221122@virtualwindow.co.za](mailto:221122@virtualwindow.co.za)
+
 # Sole Haven
 ### DV200 MERN STACK
 #### INTERACTIVE DEVELOPMENT 200 | TERM 3
 
+* [About the Project](#about-the-project)
+  * [Project Description](#project-description)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [How to install](#how-to-install)
+* [Features and Functionality](#features-and-functionality)
+* [Concept Process](#concept-process)
+   * [Wireframes](#wireframes)
+* [Development Process](#development-process)
+   * [Implementation Process](#implementation-process)
+        * [Highlights](#highlights)
+        * [Challenges](#challenges)
+   * [Future Implementation](#peer-reviews)
+* [Final Outcome](#final-outcome)
+    * [Mockups](#mockups)
+    * [Video Demonstration](#video-demonstration)
+* [Conclusion](#conclusion)
+* [Authors](#authors)
+* [License](#license)
+* [Contact](#contact)
+
+
 ## About the Project
-* ### Project Description
+### Project Description
 
 This term we were introduced to a Full Stack implementation of a web application, with a focus on combining Front End and Back End technologies into one comprehensive web application. 
 
@@ -13,7 +53,7 @@ I was tasked with researching, analysing, implementing and visualising a eCommer
 
 I ended up going with Sneakers as a product.
 
-* ### Built With
+### Built With
    * Node.js
    * Visual Studio Code
    * React
@@ -30,12 +70,13 @@ I ended up going with Sneakers as a product.
    * React-Router-Dom
 
 ## Getting Started
-* ### Prerequisites
+
+### Prerequisites
    1. Visual Studio Code
    2. Browser (Chrome, Edge, Firefox, etc)
    3. Node.js
 
-* ### How to install
+### How to install
 
 You can find the prerequisites here:
 
@@ -45,20 +86,28 @@ You can find the prerequisites here:
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 * [Node.js](https://nodejs.org/en/download)
 
-After you installed the prerequisites you then open up Visual Studio Code (VSC) in a folder where you want to create a React app and run the following inside the terminal in your VSC :
-* npx create-react-app .
+### Installation
+Here is how to clone this repo and run the app:
 
-or
+1. Open Visual Studio in a folder you want to clone the project
 
-* npx create-react-app applicationName
+2. Clone Repository </br>
+Run the following in the command-line to clone the project:
+   ```sh
+   git clone https://github.com/DieterR97/DV200-3.git
+   ```
 
-After the creation of the app you then run the following  also in your terminal inside VSC to install the required dependencies :
-* npm i axios
-* npm i bootstrap react-bootstrap
-* npm i react-router-dom
-
-Finally you run the following in your terminal to start the application :
-* npm start
+3. Install Dependencies </br>
+Run the following in the command-line to install all the required dependencies:
+   ```sh
+   npm install
+   ```
+   
+4. Run it </br>
+Run the following in the command-line to run this app:
+   ```sh
+   npm start
+   ```
 
 ## Features and Functionality
 
@@ -73,7 +122,7 @@ This web application has:
    7. An add product page. 
    
 ## Concept Process
-* ### Wireframes
+### Wireframes
 
 ![Sneaker eCommerce SPA](https://github.com/DieterR97/DV200-3/assets/113913471/ba0dff23-e8d0-42b9-92fc-2baedaac7133)
 ![Sneaker eCommerce Product Page](https://github.com/DieterR97/DV200-3/assets/113913471/300b045e-847a-45c7-93a1-a497b279f669)
@@ -90,22 +139,23 @@ Use Case Diagram - Sneaker eCommerce Application
 ![Use Case Diagram - Sneaker eCommerce Application](https://github.com/DieterR97/DV200-3/assets/113913471/b6a89abd-7ffc-4330-a038-ecf47d1b9d17)
 
 ## Development Process
-* ### Implementation Process
-    * Highlights
-      * React is very fast in updating the dom as it's Object Oriented
-      * Breaking up your web application into components is a very clean and re-useable way of coding
-      * Axios is a usefull way of making your API calls and delivers promises which is great when it comes to using the data in the response
-      * Routing is a clean and easy way of using your different pages and components, like the navbar, less code is used in the end
-    * Challenges
-      * Learning what Asynchronous programming is and AsyncAwait was a bit of a challenge getting my head around that
-      * Learning to work with the node server was a bit tricky
+### Implementation Process
 
-## Future Implementation
+#### Highlights
+  * React is very fast in updating the dom as it's Object Oriented
+  * Breaking up your web application into components is a very clean and re-useable way of coding
+  * Axios is a usefull way of making your API calls and delivers promises which is great when it comes to using the data in the response
+  * Routing is a clean and easy way of using your different pages and components, like the navbar, less code is used in the end
+#### Challenges
+  * Learning what Asynchronous programming is and AsyncAwait was a bit of a challenge getting my head around that
+  * Learning to work with the node server was a bit tricky
+
+### Future Implementation
 
 In the future I will probably add more products and more diverse selection of products. I will also add more filter options on my products page.
 
 ## Final Outcome
-* ### Mockups
+### Mockups
 
 ![3d2355eaed2](https://github.com/DieterR97/DV200-3/assets/113913471/20a07ac7-3651-4df3-9935-e7b2d3ceb587)
 
@@ -117,8 +167,7 @@ In the future I will probably add more products and more diverse selection of pr
 
 ![K05JCnmV8rr](https://github.com/DieterR97/DV200-3/assets/113913471/fbeb01e0-d9a0-432c-a865-e25b64619fa7)
 
-
-* ### Video Demonstration
+### Video Demonstration
 
 [Video Demonstration Drive Link](https://drive.google.com/file/d/1qxAuDnLwfF3Joo6a5klfrHWX2YqzNHxx/view?usp=sharing)
 
@@ -129,3 +178,19 @@ I have enjoyed problem solving and developing the SPA web application from the g
 Furthering my React skills was awesome along with the very usefull implementation of axios, routing and component based approach. I love using components and Routing espescially.
 
 I will deffinitely be using the technologies learned from throughout the term in future web applications.
+
+<!-- AUTHORS -->
+## Authors
+
+* **Dieter Roelofse** - [DieterR97](https://github.com/DieterR97)
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.\
+
+<!-- LICENSE -->
+## Contact
+
+* **Dieter Roelofse** - [221122@virtualwindow.co.za](mailto:221122@virtualwindow.co.za)
+* **Project Link** - https://github.com/DieterR97/DV200-3
